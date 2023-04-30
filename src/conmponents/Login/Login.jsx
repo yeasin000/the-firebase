@@ -45,7 +45,7 @@ const Login = () => {
       <div>
         {/* user ? logOut : signOut */}
         {user ? (
-          <button onClick={handleSignOut}>Sign Out</button>
+          <button onClick={handleSignOut}>Sign out Out</button>
         ) : (
           <>
                         <button onClick={handleGoogleSignIn}>Google sign i n  Login</button>
